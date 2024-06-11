@@ -432,5 +432,7 @@ obj/
 # Ignore all local history of files
 .history
 .ionide
+Ej1/
+Ej2/
 
 # End of https://www.toptal.com/developers/gitignore/api/executable,dotnetcore,visualstudiocode,csharp

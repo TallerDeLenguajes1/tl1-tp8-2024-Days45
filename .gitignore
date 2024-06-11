@@ -432,7 +432,15 @@ obj/
 # Ignore all local history of files
 .history
 .ionide
-Ej1/
-Ej2/
+# Ignora todo en Ej1 y Ej2
+Ej1/*
+Ej2/*
+
+# No ignores los archivos .cs y .csproj en Ej1 y Ej2
+!Ej1/*.cs
+!Ej1/*.csproj
+!Ej2/*.cs
+!Ej2/*.csproj
+
 
 # End of https://www.toptal.com/developers/gitignore/api/executable,dotnetcore,visualstudiocode,csharp
